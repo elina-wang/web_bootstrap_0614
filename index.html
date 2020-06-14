@@ -7,6 +7,8 @@
     <title>茶館</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -58,12 +60,12 @@
         </div>
 
         <!-- 介紹 -->
-        <h1>茶葉介紹</h1>
+        <h1 class="py-3">茶葉介紹</h1>
 
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <div class="card text-white">
-                    <img src="./img/tea1.jpg"" class=" card-img" alt="茶葉">
+                <div class="card text-white border-0 mb-3">
+                    <img src="./img/tea8.jpg" class=" card-img" alt="茶葉">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -73,7 +75,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-6">
-                <div class="card text-white">
+                <div class="card text-white border-0">
                     <img src="./img/tea2.jpg" class="card-img" alt="茶葉">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
@@ -84,8 +86,8 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-6">
-                <div class="card text-white">
-                    <img src="./img/tea3.jpg" class="card-img" alt="茶葉">
+                <div class="card text-white border-0">
+                    <img src="./img/food.jpg" class="card-img" alt="茶葉">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -95,8 +97,8 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-6">
-                <div class="card text-white">
-                    <img src="./img/tea3.jpg" class="card-img" alt="茶葉">
+                <div class="card text-white border-0">
+                    <img src="./img/tea7.jpg" class="card-img" alt="茶葉">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -109,10 +111,10 @@
 
 
         <!-- 服務 -->
-        <h1>提供服務</h1>
+        <h1 class="py-3">提供服務</h1>
 
         <div class="row">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-4 mx-1">
                 <div class="card" style="width: 18rem;">
                     <img src="./img/tea4.jpg" class="card-img-top" alt="服務">
                     <div class="card-body">
@@ -141,31 +143,40 @@
             </div>
 
             <!-- 表單 -->
+
+            <h1 class="py-3">聯絡我們</h1>
             <form>
                 <div class="form-group row">
-                  <label for="inputEmail3" class="col-sm-2 col-form-label">姓名</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3">
-                  </div>
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">姓名</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control " id="inputEmail3">
+                    </div>
                 </div>
                 <div class="form-group row">
-                  <label for="inputPassword3" class="col-sm-2 col-form-label">信箱</label>
-                  <div class="col-sm-10">
-                    <input type="email"" class="form-control" id="inputPassword3">
-                  </div>
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">信箱</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputPassword3">
+                    </div>
                 </div>
                 <div class="form-group row">
-                  <div class="col-sm-2">請輸入您的建議:</div>
-                  <div class="col-sm-10">
-                    <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
-                  </div>
+                    <div class="col-sm-2">請輸入您的建議</div>
+                    <div class="col-sm-10">
+                        <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                    </div>
                 </div>
                 <div class="form-group row">
-                  <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">送出</button>
-                  </div>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">送出</button>
+                    </div>
                 </div>
-              </form>
+            </form>
+
+              <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.9342900325296!2d120.67355261541509!3d24.13894567973791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb49262272b0effe2!2z6Ie65Lit56eR5oqA5aSn5a245rCR55Sf5qCh5Y2A!5e0!3m2!1szh-TW!2stw!4v1592122274449!5m2!1szh-TW!2stw" width="800" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+              <!-- 頁尾 -->
+              <footer class="text-center py-5  text-black-50">
+                  &copy;茶館 2020 All rights reserved.
+              </footer>
         </div>
 
 
